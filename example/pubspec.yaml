@@ -1,0 +1,24 @@
+# Built by Louis Innovations (www.louis-innovations.com)
+name: sadad_flutter_example
+description: Example app demonstrating the sadad_flutter package.
+version: 1.0.0
+
+publish_to: 'none'
+
+environment:
+  sdk: ^3.0.0
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sadad_flutter:
+    path: ../
+  sadad_qatar:
+    path: ../../sadad-dart-sdk
+  webview_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
